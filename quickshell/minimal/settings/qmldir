@@ -1,0 +1,11 @@
+module Settings
+
+singleton SettingsActions 1.0 SettingsActions.qml
+ShellSettings 1.0 ShellSettings.qml
+SettingsSwitch 1.0 SettingsSwitch.qml
+SettingsWindow 1.0 SettingsWindow.qml
+SettingsPage 1.0 SettingsPage.qml
+SettingsHomeItem 1.0 SettingsHomeItem.qml
+SettingsMenuItem 1.0 SettingsMenuItem.qml
+SettingsSwitchRow 1.0 SettingsSwitchRow.qml
+SettingsSliderRow 1.0 SettingsSliderRow.qml

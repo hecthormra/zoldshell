@@ -1,0 +1,43 @@
+# Dependências obrigatórias (Void Linux / xbps)
+# Um pacote por linha. O install.sh instala um por um e avisa se algum não existir.
+# Lista levantada com grep nos .qml e .sh do próprio shell.
+
+# Compositor e shell
+sway
+quickshell
+
+# Terminal e visual
+kitty
+cava
+fastfetch
+
+# Wallpaper (backend awww, antigo swww) e paleta de cores a partir dele
+# Se o xbps não achar o awww, confira com: xbps-query -Rs awww
+awww
+matugen
+
+# Imagens (o comando `convert`)
+ImageMagick
+
+# Sensores, brilho, rede, áudio e Bluetooth
+lm_sensors
+brightnessctl
+NetworkManager
+pipewire
+wireplumber
+pulseaudio-utils
+bluez
+rfkill
+
+# Sessão: `loginctl terminate-session`, reboot e poweroff sem senha
+elogind
+dbus
+
+# gsettings (usado para alternar claro/escuro)
+glib
+
+# Área de transferência
+wl-clipboard
+
+# Utilitários
+jq

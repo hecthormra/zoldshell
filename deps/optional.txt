@@ -1,0 +1,8 @@
+# Dependências opcionais (instale com: ./install.sh --optional)
+
+# Brilho de monitor externo via DDC/CI (o BrightnessService chama o ddcutil).
+# Precisa do módulo i2c-dev e do seu usuário no grupo i2c.
+ddcutil
+
+# Navegador
+firefox

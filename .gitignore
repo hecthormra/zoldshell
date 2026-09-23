@@ -1,0 +1,15 @@
+*.bak
+*.backup
+*.recuperacao
+*.hyprland-backup
+*.hyprland
+*~
+quickshell/theme.conf
+quickshell/wallpaper.conf
+quickshell/theme-switcher/wallpaper-theme.json
+kitty/theme-colors.conf
+sway/theme.conf
+*.bak*
+*-bak
+*-backup
+*.backup*
