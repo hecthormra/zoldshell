@@ -45,7 +45,7 @@ Opcionais (`deps/optional.txt`): `ddcutil` (brilho de monitor externo) e `firefo
 ## Instalação
 
 ```sh
-git clone https://github.com/SEU_USUARIO/zoldshell.git ~/zoldshell
+git clone https://github.com/hecthormra/zoldshell.git ~/zoldshell
 cd ~/zoldshell
 ./install.sh              # dependências + links
 ./install.sh --optional   # também instala os opcionais
