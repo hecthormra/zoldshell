@@ -141,3 +141,7 @@ GPL-3.0
 ---
 **Nota (Zoldshell):** cópia modificada de https://github.com/tomgonz/quickshell-simpleperfmeters
 (GPL-3.0). Adaptada para uso com o Sway. Os arquivos originais e a licença foram mantidos.
+
+---
+**Nota (Zoldshell):** cópia modificada de https://github.com/tomgonz/quickshell-simpleperfmeters
+(GPL-3.0). Adaptada para uso com o Sway. Os arquivos originais e a licença foram mantidos.
