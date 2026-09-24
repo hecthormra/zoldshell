@@ -105,14 +105,24 @@ O estado de cada máquina (`theme.conf`, `wallpaper.conf`, `wallpaper-theme.json
 | Kitty não muda de cor | falta `allow_remote_control` ou `listen_on` |
 | Ícones quebrados | falta a Nerd Font |
 
-## Créditos
+## Origem e créditos
 
-Baseado em dotfiles de Quickshell originalmente feitos para Hyprland, adaptados para Sway.
-Preencha aqui o autor e o link da base, e confira a licença dela antes de publicar.
+O Zoldshell é um projeto derivado, **adaptado do Hyprland para o Sway**. Nada aqui foi escrito do zero: parte é de outros autores, e as mudanças estão listadas abaixo.
 
-- Base do shell: _autor / link_
-- Painel de desempenho: [tomgonz/quickshell-simpleperfmeters](https://github.com/tomgonz/quickshell-simpleperfmeters) (GPL-3.0)
+| Parte | Origem | Licença |
+|---|---|---|
+| Shell (bar, control center, OSD, launcher, etc.) | base do **SRCthird**, originalmente para Hyprland: _coloque o link_ | _confirmar_ |
+| Painel de desempenho (`quickshell/minimal/perfmeters`) | [tomgonz/quickshell-simpleperfmeters](https://github.com/tomgonz/quickshell-simpleperfmeters) | GPL-3.0 |
+
+## O que foi alterado
+
+- Workspaces, título da janela e bordas via `swaymsg`, no lugar do `hyprctl`
+- Control Center adaptado e tela de Settings criada
+- Tema integrado a Quickshell, Kitty, Sway e Cava, com paleta gerada do wallpaper
+- Wallpaper com `awww` e cores geradas pelo `matugen`
+- Temperatura da CPU lida pelo `lm_sensors`
+- Ajustes do `perfmeters` para o Sway
 
 ## Licença
 
-Defina conforme a licença da base usada.
+O `perfmeters` mantém a GPL-3.0 do autor original (arquivo `quickshell/minimal/perfmeters/LICENSE`). O restante segue a licença da base usada: _preencha depois de conferir_.

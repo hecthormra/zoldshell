@@ -137,3 +137,7 @@ Typically you would only be in a Toolbox on an immutable Linux like Fedora Atomi
 
 ## License
 GPL-3.0
+
+---
+**Nota (Zoldshell):** cópia modificada de https://github.com/tomgonz/quickshell-simpleperfmeters
+(GPL-3.0). Adaptada para uso com o Sway. Os arquivos originais e a licença foram mantidos.
